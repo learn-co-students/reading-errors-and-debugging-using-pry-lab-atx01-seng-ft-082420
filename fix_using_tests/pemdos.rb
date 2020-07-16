@@ -1,9 +1,13 @@
-# don't forget to add: require 'pry'
+
 
 def snake_it_up(string)
-  if string[0] == "s"
-    10 * "s" + string
+  if string[0] == "s" 
+  p "ssssssssss" + string
+  
+  elsif string[0] == "S"
+  p "Sssssssss" + string.downcase
+ 
   else
-    string
+    p string
   end
 end
